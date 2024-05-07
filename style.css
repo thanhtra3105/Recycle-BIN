@@ -1,0 +1,243 @@
+.tieude {
+    color: blue;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    border: 1px solid blue;
+    border-radius: 20%;
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+@keyframes fillCircle {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+
+#paper {
+    text-align: center;
+    color: green;
+    font-size: 25px;
+    font-style:inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 10px 50px 10px 10px; */
+    /* khoang cach giua cac khung*/
+    padding: 10px 10px 10px 10px;
+    /* khoang cach giua khung va ca phan tu o trong*/
+    
+    position: absolute;
+    left: 424px;
+    top: 124px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    /* can ngang */
+    align-items: center;
+    /* can doc */
+    border: 1px solid green;
+    overflow: hidden;
+    background-color: white;
+}
+.circle1 {
+    border: 1px solid green;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(75, 226, 75);
+    clip-path: polygon(0 0, 0 100%, 50% 100%, 50% 0);
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+#pp {
+    border: 1px solid green;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    left: 424px;
+    top: 270px;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    /* margin: 20px 0px 0px 0px; */        /* top right bot left */
+}
+
+
+#progressBar {
+    height: 100%;
+    background-color: green;
+    animation: fillCircle 2s ease-in-out forwards;
+}
+
+#metal {
+    font-size: 25px;
+    font-style:inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(247, 226, 39, 0.986);
+    border-radius: 50%;
+    /* Tạo hình tròn bằng cách đặt border-radius thành 50% */
+    /* margin: 10px 10px 10px 10px; */
+    padding: 10px 10px 10px 10px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    left: 624px;
+    top: 124px;
+    display: flex;
+    /* Sử dụng Flexbox */
+    justify-content: center;
+    /* Căn ngang chữ giữa */
+    align-items: center;
+    /* Căn dọc chữ giữa */
+    border: 1px solid yellow;
+    background-color: white;
+}
+
+.circle2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(247, 226, 39, 0.986);
+    clip-path: polygon(0 0, 0 100%, 50% 100%, 50% 0);
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+#mt {
+    text-align: center;
+    border: 1px solid rgb(240, 236, 12);
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 624px;
+    top: 270px;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    /* margin: 20px 0px 0px 260px; */
+}
+
+#plastic {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    font-style:inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 10px 10px 10px 10px; */
+    padding: 10px 10px 10px 10px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 824px;
+    top: 124px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    background-color: white;
+}
+.circle3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(240, 59, 35);
+    /* clip-path: polygon(0 0, 0 100%, 50% 100%, 50% 0); */
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+
+#plt {
+    text-align: center;
+    border: 1px solid rgb(241, 18, 18);
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 824px;
+    top: 270px;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    /* margin: 20px 0px 0px 310px; */
+}
+
+#type{
+    /* border: 1px solid black; 
+    width: 100px;
+    height: 100px; */
+    position: absolute;
+    top: 50px;
+}
+img {
+    display: block;
+    margin: 10px 0 10px 0;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+/* div {
+    border: 1px solid red;
+} */
+
+
+
+html {
+
+    /* background: url("https://media.gettyimages.com/id/184099943/photo/recycle-concept.jpg?s=612x612&w=gi&k=20&c=ot6KcnssBYKnuYpjHCpDUoqBg1kLpI7WrecDUSihvaA=");
+    display: flex; */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+}
+
+#boc1{
+    border: 1px solid green ;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 400px;
+    top: 99px;
+    border-radius: 50%;
+} 
+#boc2{
+    border: 1px solid yellow ;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 600px;
+    top: 99px;
+    border-radius: 50%;
+} 
+#boc3{
+    border: 1px solid red ;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 800px;
+    top: 99px;
+    border-radius: 50%;
+} 
